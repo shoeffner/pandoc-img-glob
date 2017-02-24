@@ -1,0 +1,5 @@
+__*
+*.swp
+*.pyc
+*.egg-info*
+*.zsh

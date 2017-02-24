@@ -1,0 +1,5 @@
+include README.rst
+include setup.cfg
+include setup.py
+include pandoc_img_glob.py
+include LICENSE
