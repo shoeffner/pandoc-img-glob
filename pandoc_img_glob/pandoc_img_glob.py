@@ -5,8 +5,6 @@ import glob
 
 import panflute as pf
 
-__version__ = '0.1.0'
-
 
 def prepare(doc):
     pass

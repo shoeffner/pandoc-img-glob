@@ -1,5 +1,5 @@
 include README.rst
+include LICENSE
 include setup.cfg
 include setup.py
-include pandoc_img_glob.py
-include LICENSE
+recursive-include pandoc_img_glob *.py

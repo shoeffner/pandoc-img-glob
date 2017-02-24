@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from distutils.core import setup
+from setuptools import setup
 
 import re
 
@@ -14,10 +14,6 @@ with open('README.rst', 'r') as f:
 README = re.sub(r' _(.+): ([^(http)].+)', r' _\1: {}/blob/master/\2'
                 .format(REPOSITORY), README)
 
-REQUIREMENTS = []
-with open('requirements.txt', 'r') as f:
-    REQUIREMENTS = filter(None, f.read().split('\n'))
-
 setup(
   name='pandoc-img-glob',
   version=__version__,
@@ -28,7 +24,7 @@ setup(
   author_email='info@sebastian-hoeffner.de',
   url=REPOSITORY,
   download_url='{}/tarball/{}'.format(REPOSITORY, __version__),
-  py_modules=['pandoc_img_glob'],
+  packages=['pandoc_img_glob'],
   classifiers=[
       'Development Status :: 3 - Alpha',
       'Intended Audience :: Science/Research',
@@ -37,7 +33,7 @@ setup(
       'Programming Language :: Python :: 3.6',
       'Topic :: Text Processing :: Filters',
   ],
-  install_requires=REQUIREMENTS,
+  install_requires=['panflute'],
   license='MIT',
   keywords=['pandoc', 'image', 'multifile', 'filter'],
 )

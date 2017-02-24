@@ -3,3 +3,4 @@ __*
 *.pyc
 *.egg-info*
 *.zsh
+dist/*
