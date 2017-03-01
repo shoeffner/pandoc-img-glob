@@ -17,7 +17,7 @@ README = re.sub(r' _(.+): ([^(http)].+)', r' _\1: {}/blob/master/\2'
 setup(
   name='pandoc-img-glob',
   version=__version__,
-  description='',
+  description='A pandoc filter for globbing image paths in multi file projects.',  # noqa
   long_description=README,
   entry_points={'console_scripts': ['pandoc-img-glob = pandoc_img_glob:main']},
   author='Sebastian Höffner',

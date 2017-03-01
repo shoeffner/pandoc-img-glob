@@ -56,14 +56,14 @@ will just silently use the first it finds.
 Installation
 ------------
 
-Just use pip.
+Just use pip to install it from `pypi`_
 
 .. code-block:: shell
 
     pip install pandoc-img-glob
 
 
-.. _`filter`: http://pandoc.org/scripting.html
-.. _`pandoc`: http://pandoc.org/index.html
+.. _`filter`: https://pandoc.org/scripting.html
+.. _`pandoc`: https://pandoc.org/index.html
 .. _`panflute`: http://scorreia.com/software/panflute/index.html
-
+.. _`pypi`: https://pypi.python.org/pypi/pandoc-img-glob
