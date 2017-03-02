@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.3
+
+- Fixing version numbering.
+
 
 ## 0.1.2
 
