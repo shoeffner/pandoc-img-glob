@@ -20,6 +20,7 @@ setup(
   description='A pandoc filter for globbing image paths in multi file projects.',  # noqa
   long_description=README,
   entry_points={'console_scripts': ['pandoc-img-glob = pandoc_img_glob:main']},
+  scripts=['./pandoc_img_glob/pandoc-img-glob.py'],
   author='Sebastian Höffner',
   author_email='info@sebastian-hoeffner.de',
   url=REPOSITORY,
